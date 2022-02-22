@@ -1,5 +1,5 @@
 body {
-  background: #f5f5f5;
+  background: #555555;
   font-family: "Ubuntu", sans-serif;
 }
 
@@ -7,11 +7,17 @@ body {
   width: 1166px;
   padding: 0 15px;
   margin: 0 auto;
+  padding-top: 75px;
+  border: 1px solid green;
 }
 
 header {
-  width: 100%;
-  border: 1px solid gray;
+  width: 1166px;
+  background: #555555;
+  color: #f5f5f5;
+  top: 0;
+  position: fixed;
+  border: 1px solid red;
 }
 
 header .cabecera {
@@ -28,9 +34,6 @@ h1 {
   padding: 10px;
 }
 
-nav {
-}
-
 nav li {
   display: inline;
   margin: 0 0 0 15px;
@@ -39,28 +42,28 @@ nav li {
 nav a {
   text-transform: uppercase;
   text-decoration: none;
-  color: #555555;
+  color: #f5f5f5;
   padding: 10px;
 }
 
 nav a:hover {
   color: #000000;
   font-size: 18px;
-  background: #555555;
+  background: #f5f5f5;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 main {
   width: 100%;
-  border: 1px solid black;
 }
 
 .intro {
+  border: 1px solid yellow;
   width: 100%;
-  border: 1px solid red;
   margin: 32px 0;
   display: flex;
-  background:url(images/banner.jpg);
+  background: url(images/banner.jpg);
 }
 
 .intro .intro-left {
@@ -69,38 +72,36 @@ main {
 }
 
 .intro .intro-left h2 {
-  font-family: Raleway;
   font-style: normal;
   font-weight: bold;
   font-size: 52px;
-  line-height: 61px;  
-  color:#f5f5f5;
+  line-height: 61px;
+  color: #f5f5f5;
   padding: 61px 0 24px 10px;
 }
 
-.intro .intro-left p{
-  font-family: Raleway;
+.intro .intro-left p {
   font-style: normal;
   font-weight: normal;
   font-size: 22px;
-  line-height: 26px;  
-  color:#f5f5f5;
+  line-height: 26px;
+  color: #f5f5f5;
   padding: 10px;
 }
 
-.intro .intro-left li{
+.intro .intro-left li {
   display: inline;
   margin: 0 0 0 15px;
 }
 
 .intro .intro-left a {
-    text-decoration: none;
-    color:#f5f5f5;
-    padding: 10px;    
+  text-decoration: none;
+  color: #f5f5f5;
+  padding: 10px auto;
 }
 
-.intro .intro-left li ::before{
-  content: "✔";   
+.intro .intro-left li ::before {
+  content: "✔";
 }
 
 .intro .intro-right {
@@ -112,54 +113,96 @@ main {
   max-width: 368px;
   width: 100%;
   height: 100%;
-  max-height:  368px;
+  max-height: 368px;
   border-radius: 50%;
 }
 
-.sobre-mi{
+.sobre-mi {
+  border: 1px solid white;
   width: 751px;
   margin: 32px auto;
   background: url();
 }
 
-.sobre-mi h2{
+.sobre-mi h2 {
   font-weight: bold;
   font-size: 32px;
   line-height: 38px;
-  color: #464646;
+  color: #f5f5f5;
 }
 
-.sobre-mi p{
+.sobre-mi p {
   font-size: 16px;
   line-height: 19px;
-  color: #464646;
+  color: #f5f5f5;
   margin: 16px 0px;
+  text-align: justify;
 }
 
-.skills-hobbies{
+.container-skills-hobbies {
+  border: 1px solid aqua;
   width: 1440;
-  border: 1px solid #000000;
+  padding: 0;
 }
 
-.skills h2{
+.container-skills {
+  border: 1px solid purple;
+  width: 1166px;
+  margin: 88px 0px;
+  padding: 0px;
+}
+
+.container-skills h2 {
   font-weight: bold;
   font-size: 32px;
   line-height: 38px;
   text-align: center;
-  color: #464646;
+  color: #f5f5f5;
   margin: 32px 0px;
 }
 
-.hobbies h2{
+.container-skills ul {
+  width: 1166px;
+  margin: 32px auto;
+}
+.container-skills li {
+  display: inline-block;
+  padding: 8px;
+  margin: auto 8px;
+}
+.container-skills img {
+  width: 144px;
+}
+
+.container-hobbies {
+  border: 1px solid pink;
+  width: 1166px;
+  margin: 88px 0px;
+  padding: 0px;
+}
+
+.container-hobbies h2 {
   font-weight: bold;
   font-size: 32px;
   line-height: 38px;
   text-align: center;
-  color: #464646;
+  color: #f5f5f5;
   margin: 32px 0px;
 }
 
-
+.container-hobbies ul {
+  width: 1166px;
+  margin: 32px 0px;
+  padding: 0;
+}
+.container-hobbies li {
+  display: inline-block;
+  padding: 8px;
+  margin: 0 8px;
+}
+.container-hobbies img {
+  width: 144px;
+}
 
 footer {
   width: 100%;
