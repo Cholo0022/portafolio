@@ -3,29 +3,27 @@ body {
   font-family: "Ubuntu", sans-serif;
 }
 
-.contenedor {
-  width: 1166px;
-  padding: 0 15px;
+.container {
   margin: 0 auto;
-  padding-top: 75px;
-  border: 1px solid green;
+  padding: 0 15px;  
+  width: 1166px;
 }
 
-header {
-  width: 1166px;
+header {  
   background: #555555;
   color: #f5f5f5;
-  top: 0;
-  position: fixed;
-  border: 1px solid red;
+  width: 100%;   
+/*	left: 0;  Posicionamos la cabecera al lado izquierdo 
+	top: 0;  Posicionamos la cabecera pegada arriba
+	position: fixed; */
 }
 
 header .cabecera {
-  width: 100%;
-  padding: 32px 0;
+  align-items: center;  
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  padding: 32px 0;
+  width: 100%;
 }
 
 h1 {
@@ -40,18 +38,18 @@ nav li {
 }
 
 nav a {
-  text-transform: uppercase;
-  text-decoration: none;
   color: #f5f5f5;
   padding: 10px;
+  text-transform: uppercase;
+  text-decoration: none;    
 }
 
 nav a:hover {
-  color: #000000;
-  font-size: 18px;
   background: #f5f5f5;
   border-radius: 5px;
+  color: #000000;
   cursor: pointer;
+  font-size: 18px;  
 }
 
 main {
@@ -59,33 +57,32 @@ main {
 }
 
 .intro {
-  border: 1px solid yellow;
-  width: 100%;
-  margin: 32px 0;
   display: flex;
   background: url(images/banner.jpg);
+  margin: 32px 0;
+  width: 100%; 
 }
 
 .intro .intro-left {
-  width: calc(100% - 368px);
   padding-right: 17px;
+  width: calc(100% - 368px);  
 }
 
 .intro .intro-left h2 {
+  color: #f5f5f5;
   font-style: normal;
   font-weight: bold;
   font-size: 52px;
-  line-height: 61px;
-  color: #f5f5f5;
+  line-height: 61px;  
   padding: 61px 0 24px 10px;
 }
 
 .intro .intro-left p {
+  color: #f5f5f5;
   font-style: normal;
   font-weight: normal;
   font-size: 22px;
   line-height: 26px;
-  color: #f5f5f5;
   padding: 10px;
 }
 
@@ -95,9 +92,9 @@ main {
 }
 
 .intro .intro-left a {
-  text-decoration: none;
   color: #f5f5f5;
   padding: 10px auto;
+  text-decoration: none;
 }
 
 .intro .intro-left li ::before {
@@ -110,101 +107,96 @@ main {
 }
 
 .intro .intro-right img {
-  max-width: 368px;
-  width: 100%;
-  height: 100%;
-  max-height: 368px;
   border-radius: 50%;
+  height: 100%;
+  max-width: 368px;
+  max-height: 368px;
+  width: 100%;  
 }
 
-.sobre-mi {
-  border: 1px solid white;
-  width: 751px;
+.sobre-mi { 
   margin: 32px auto;
-  background: url();
+  width: 751px;
 }
 
 .sobre-mi h2 {
+  color: #f5f5f5;
   font-weight: bold;
   font-size: 32px;
   line-height: 38px;
-  color: #f5f5f5;
 }
 
 .sobre-mi p {
-  font-size: 16px;
-  line-height: 19px;
   color: #f5f5f5;
+  font-size: 16px;
   margin: 16px 0px;
+  line-height: 19px;  
   text-align: justify;
 }
 
 .container-skills-hobbies {
-  border: 1px solid aqua;
-  width: 1440;
+  border: 1px solid aqua;  
   padding: 0;
+  width: 100%;
 }
 
 .container-skills {
-  border: 1px solid purple;
-  width: 1166px;
+  border: 1px solid purple;  
   margin: 88px 0px;
   padding: 0px;
+  width: 100%;
 }
 
-.container-skills h2 {
+.container-skills-hobbies h2 {
+  color: #f5f5f5;
   font-weight: bold;
   font-size: 32px;
+  margin: 32px 0px;
   line-height: 38px;
   text-align: center;
-  color: #f5f5f5;
-  margin: 32px 0px;
 }
 
 .container-skills ul {
-  width: 1166px;
+  display: flex;
+  justify-content: space-around;
   margin: 32px auto;
+  width: 100%;
 }
 .container-skills li {
   display: inline-block;
-  padding: 8px;
   margin: auto 8px;
+  padding: 8px;
 }
+
 .container-skills img {
   width: 144px;
 }
 
 .container-hobbies {
   border: 1px solid pink;
-  width: 1166px;
   margin: 88px 0px;
   padding: 0px;
-}
-
-.container-hobbies h2 {
-  font-weight: bold;
-  font-size: 32px;
-  line-height: 38px;
-  text-align: center;
-  color: #f5f5f5;
-  margin: 32px 0px;
+  width: 100%;  
 }
 
 .container-hobbies ul {
-  width: 1166px;
-  margin: 32px 0px;
-  padding: 0;
+  display: flex;  
+  justify-content: space-around;
+  margin: 32px 0px;  
+  width: 100%;
 }
+
 .container-hobbies li {
   display: inline-block;
-  padding: 8px;
   margin: 0 8px;
+  padding: 8px;  
 }
+
 .container-hobbies img {
   width: 144px;
 }
 
 footer {
-  width: 100%;
   border: 1px solid red;
+  width: 100%;
 }
