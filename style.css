@@ -25,13 +25,13 @@ header .cabecera {
 }
 
 .logo{
-  display: flex;
   align-items: center;
+  display: flex;
 }
 
 .logo-estrellas{
-  width: 24px;
   margin: 0px 8px;
+  width: 24px;
 }
 
 .cabecera .estrella-grande-logo{
@@ -40,13 +40,11 @@ header .cabecera {
 }
 
 .cabecera .estrella-chica-superior-logo{  
-  color: #464646;
- 
+  color: #464646; 
 }
 
 .cabecera .estrella-chica-inferior-logo{
-  color: #464646;
- 
+  color: #464646; 
 }
 
 h1 {
@@ -62,17 +60,9 @@ nav li {
 }
 
 nav a {
-  padding: 10px;
+  color: #464646;
   text-transform: uppercase;
   text-decoration: none;    
-}
-
-nav a:hover {
-  background: #464646;
-  border-radius: 5px;
-  color: #f5f5f5;
-  cursor: pointer;
-  font-size: 18px;  
 }
 
 main {
@@ -92,21 +82,25 @@ main {
 }
 
 .intro .intro-left h2 {
-  /* color: #f5f5f5; */
   font-style: normal;
   font-weight: bold;
   font-size: 52px;
+  margin: 24px 0;
   line-height: 61px;  
   padding: 61px 0 24px 10px;
 }
 
 .intro .intro-left p {
-  /* color: #f5f5f5; */
   font-style: normal;
   font-weight: normal;
   font-size: 22px;
+  margin: 24px 0;
   line-height: 26px;
   padding: 10px;
+}
+
+.intro .intro-left ul {
+  margin: 24px 0;
 }
 
 .intro .intro-left li {
@@ -115,13 +109,14 @@ main {
 }
 
 .intro .intro-left a {
-  /* color: #f5f5f5; */
+  color: #464646;
   padding: 10px auto;
   text-decoration: none;
 }
 
 .intro .intro-left li ::before {
   content: "✔";
+  color: #464646;
 }
 
 .intro .intro-right {
@@ -156,8 +151,8 @@ main {
 }
 
 .sobre-mi img{
-  width: 140px;
   margin: 16px 0;
+  width: 140px;
 }
 
 .container-skills-hobbies {
@@ -209,12 +204,12 @@ main {
 .container-images{
   color: #464646;
   background:#ffffff;
-  height: 174px;
-  margin: 0px 16px;
-  width: 176px; 
   display: flex; 
   flex-direction: column;
+  height: 174px;
   justify-content: flex-end;
+  margin: 0px 16px;
+  width: 176px; 
 }
 
 .container-images p{
@@ -226,8 +221,8 @@ main {
 }
 
 .imagen-hobbies{
-  width: 22.67px;
   height: 30.67px;
+  width: 22.67px;
 }
 
 footer {
