@@ -1,18 +1,18 @@
 body {
-  background:  #F5F5F5;
+  background: #f5f5f5;
   color: #464646;
-  font-family: 'Raleway', sans-serif;  
+  font-family: "Raleway", sans-serif;
   width: 1440px;
 }
 
-header {  
+header {
   width: 1136px;
   margin: 32px auto;
   padding: 32px 0;
 }
 
 header .cabecera {
-  align-items: center;  
+  align-items: center;
   display: flex;
   justify-content: space-between;
   margin: 32px 0;
@@ -20,28 +20,28 @@ header .cabecera {
   width: 100%;
 }
 
-.logo{
+.logo {
   align-items: center;
   display: flex;
   margin-right: 0;
 }
 
-.logo-estrellas{
+.logo-estrellas {
   margin: 0px 8px;
   width: 24px;
 }
 
-.cabecera .estrella-grande-logo{
+.cabecera .estrella-grande-logo {
   color: #464646;
   width: 16px;
 }
 
-.cabecera .estrella-chica-superior-logo{  
-  color: #464646; 
+.cabecera .estrella-chica-superior-logo {
+  color: #464646;
 }
 
-.cabecera .estrella-chica-inferior-logo{
-  color: #464646; 
+.cabecera .estrella-chica-inferior-logo {
+  color: #464646;
 }
 
 h1 {
@@ -60,7 +60,7 @@ nav li {
 nav a {
   color: #464646;
   text-transform: uppercase;
-  text-decoration: none;    
+  text-decoration: none;
   margin: 0 16px;
 }
 
@@ -68,12 +68,12 @@ nav a {
   display: flex;
   margin: 32px auto;
   padding: 0;
-  width: 1136px; 
+  width: 1136px;
 }
 
 .intro .intro-left {
   padding-right: 17px;
-  width: calc(100% - 368px);  
+  width: calc(100% - 368px);
 }
 
 .intro .intro-left h2 {
@@ -81,7 +81,7 @@ nav a {
   font-weight: bold;
   font-size: 52px;
   margin: 24px 0;
-  line-height: 61px;  
+  line-height: 61px;
 }
 
 .intro .intro-left p {
@@ -98,7 +98,7 @@ nav a {
 
 .intro .intro-left li {
   display: inline;
-  margin:0 32px;
+  margin: 0 32px;
   padding: 0;
 }
 
@@ -119,21 +119,19 @@ nav a {
 }
 
 .intro .intro-right img {
-  border-radius: 50%;  
+  border-radius: 50%;
   max-width: 368px;
   max-height: 368px;
   margin: 0;
 }
 
-
-.container-sobre-mi{
-  background: #EAF2FD;
+.container-sobre-mi {
+  background: #eaf2fd;
   padding: 64px;
   margin: 32px 0;
-
 }
 
-.sobre-mi { 
+.sobre-mi {
   margin: 10px auto;
   width: 751px;
 }
@@ -147,11 +145,11 @@ nav a {
 .sobre-mi p {
   font-size: 16px;
   margin: 16px 0px;
-  line-height: 19px;  
+  line-height: 19px;
   text-align: justify;
 }
 
-.sobre-mi img{
+.sobre-mi img {
   margin: 16px 0;
   width: 140px;
 }
@@ -198,7 +196,7 @@ nav a {
 .container-hobbies {
   margin: 32px 0px;
   padding: 0px;
-  width: 1136px;  
+  width: 1136px;
 }
 
 .container-hobbies ul {
@@ -206,18 +204,18 @@ nav a {
   justify-content: space-around;
 }
 
-.container-images{
+.container-images {
   color: #464646;
-  background:#ffffff;
-  display: flex; 
+  background: #ffffff;
+  display: flex;
   flex-direction: column;
   height: 174px;
   justify-content: flex-end;
   margin: 0px 16px;
-  width: 144px; 
+  width: 144px;
 }
 
-.container-images p{
+.container-images p {
   color: #464646;
   font-size: 16px;
   font-weight: bold;
@@ -225,13 +223,13 @@ nav a {
   width: 144px;
 }
 
-.imagen-hobbies{
+.imagen-hobbies {
   height: 30.67px;
   width: 22.67px;
 }
 
-.formacion-academica{
-  background: #EAF2FD;
+.formacion-academica {
+  background: #eaf2fd;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -239,36 +237,42 @@ nav a {
   padding: 82px;
 }
 
-.formacion-academica h2{
+.formacion-academica h2 {
   font-weight: bold;
   font-size: 32px;
   line-height: 38px;
   margin: 32px 0px;
 }
 
-.container-images-formacion{
+.container-images-formacion {
   display: flex;
   justify-content: space-around;
   align-items: center;
-
 }
 
-.contenedor-imagen img{
+.contenedor-imagen img {
   margin: 0px 10px;
   width: 190px;
 }
 
-.formacion{
+.formacion {
   margin: 0px 16px;
   padding: 0;
 }
 
-.formacion p{
+.formacion p {
   font-size: 22px;
-  margin: 8px 0px;
+  font-weight: bold;
+  line-height: 26px;
 }
 
-.contenedor-imagen{
+.formacion .fecha {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.contenedor-imagen {
   width: 368px;
   height: 286px;
   background: #ffffff;
@@ -277,20 +281,109 @@ nav a {
   align-items: center;
 }
 
+.experiencia-profesional {
+  width: 1136px;
+  margin: 32px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 82px;
+}
+
+.experiencia-profesional h2 {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 38px;
+  margin: 32px 0px;
+}
+
+.experiencia {
+  width: 100%;
+  padding: 0;
+  margin: 32px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.experiencia-encriptador {
+  width: 752px;
+  height: 382px;
+  background: url(images/encriptador.png);
+  margin: 0;
+  padding: 0;
+}
+
+.experiencia-ahorcado {
+  width: 752px;
+  height: 458px;
+  background: url(images/ahorcado.png);
+  margin: 0;
+  padding: 0;
+}
+
+.experiencia-info {
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 752px);
+  align-self: center;
+  margin: 0;
+}
+
+.nombre-proyecto {
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 26px;
+  margin: 8px 16px;
+}
+
+.descripcion-proyecto {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  margin: 8px 16px;
+}
+
+.repositorio {
+  color: #2a7ae4;
+  border: 1px solid #2a7ae4;
+  box-sizing: border-box;
+  padding: 16px;
+  margin: 0 16px;
+  cursor: pointer;
+}
+
+.repositorio a {
+  text-decoration: none;
+  color: #2a7ae4;
+}
+
+.demo {
+  background: #2a7ae4;
+  border: none;
+  padding: 16px;
+  margin: 0 16px;
+  color: #f5f5f5;
+  cursor: pointer;
+}
+
+.demo a {
+  text-decoration: none;
+}
+
 /* Sector responsive tablet */
 
-@media (max-width:768px) {
-  body{
+@media (max-width: 768px) {
+  body {
     width: 768px;
   }
 
-  header{
+  header {
     width: 704px;
     margin: 0;
     padding: 16px 32px;
   }
 
-  header .cabecera{
+  header .cabecera {
     margin: 0;
     display: flex;
     flex-direction: row;
@@ -299,39 +392,39 @@ nav a {
     width: 100%;
   }
 
-  .cabecera ul{
+  .cabecera ul {
     margin: 0px 10px;
   }
 
-  .logo-estrellas{
+  .logo-estrellas {
     margin: 0px 8px;
   }
 
-  .logo h1{
+  .logo h1 {
     margin: 0px 8px;
   }
 
-  .sobreMiLink{
-    display: none;
-  }  
-
-  .skillsLink{
-    display: none;
-  }  
-
-  .hobbiesLink{
+  .sobreMiLink {
     display: none;
   }
 
-  .formacionLink{
+  .skillsLink {
     display: none;
   }
 
-  .proyectosLink{
+  .hobbiesLink {
     display: none;
-  }  
+  }
 
-  .intro{
+  .formacionLink {
+    display: none;
+  }
+
+  .proyectosLink {
+    display: none;
+  }
+
+  .intro {
     width: 704px;
     margin: 10px auto;
     padding: 0;
@@ -339,11 +432,10 @@ nav a {
 
   .intro .intro-left {
     padding-right: 17px;
-    width: calc(100% - 146px);  
+    width: calc(100% - 146px);
   }
-  
 
-  .intro .intro-left h2{
+  .intro .intro-left h2 {
     margin: 8px 0px;
     font-size: 22px;
     line-height: 26px;
@@ -376,16 +468,15 @@ nav a {
     margin: 0 32px;
     height: 100%;
     width: 100%;
-    
   }
 
-  .container-sobre-mi{
+  .container-sobre-mi {
     width: 704px;
     margin: auto;
     padding: 32px;
   }
-  
-  .sobre-mi{
+
+  .sobre-mi {
     width: 100%;
     margin: 0px;
     padding: auto;
@@ -400,7 +491,7 @@ nav a {
   .sobre-mi p {
     font-size: 14px;
     margin: 16px 0px;
-    line-height: 16px;  
+    line-height: 16px;
   }
 
   .container-skills-hobbies {
@@ -418,7 +509,7 @@ nav a {
     width: 100%;
   }
 
-  .container-skills-hobbies h2 {    
+  .container-skills-hobbies h2 {
     font-size: 22px;
     margin: 32px 0px;
     line-height: 26px;
@@ -432,18 +523,17 @@ nav a {
     padding: 16px;
     margin: 0px;
     width: 100%;
-    
   }
   .container-skills img {
     width: 192px;
   }
-  
+
   .container-hobbies {
     margin: 32px 0px;
     padding: 0px;
-    width: 100%;  
+    width: 100%;
   }
-  
+
   .container-hobbies ul {
     display: flex;
     justify-content: center;
@@ -453,27 +543,27 @@ nav a {
     margin: 0px;
     width: 100%;
   }
-  
-  .container-images{
+
+  .container-images {
     color: #464646;
-    background:#ffffff;
-    display: flex; 
+    background: #ffffff;
+    display: flex;
     flex-direction: column;
     height: 174px;
     justify-content: flex-end;
     margin: 16px 16px;
-    width: 176px; 
+    width: 176px;
   }
-  
-  .container-images p{
+
+  .container-images p {
     color: #464646;
     font-size: 16px;
     font-weight: bold;
     height: 19px;
     width: 144px;
   }
-  
-  .imagen-hobbies{
+
+  .imagen-hobbies {
     height: 30.67px;
     width: 22.67px;
   }
@@ -482,17 +572,17 @@ nav a {
 /* Sector responsive mobile */
 
 @media screen and (max-width: 360px) {
-  body{
+  body {
     width: 360px;
   }
 
-  header{
+  header {
     width: 328px;
     padding: 16px;
     margin: 0;
   }
 
-  header .cabecera{
+  header .cabecera {
     margin: 0px;
     display: flex;
     flex-direction: row;
@@ -502,23 +592,23 @@ nav a {
     width: 100%;
   }
 
-  .cabecera ul{
+  .cabecera ul {
     margin: 0px;
     padding: 16px;
   }
 
-  .cabecera li{
+  .cabecera li {
     flex: none;
     padding: 0;
     margin: 0;
   }
 
-  .logo{
+  .logo {
     padding: 0;
     margin: 0 10px;
   }
 
-  .logo-estrellas{
+  .logo-estrellas {
     flex: none;
     width: 22px;
     height: 22px;
@@ -526,39 +616,39 @@ nav a {
     padding: 0px;
   }
 
-  .logo h1{
+  .logo h1 {
     flex: none;
     margin: 0px 8px;
     font-size: 16px;
     padding: 0px;
   }
 
-  .sobreMiLink{
-    display: none;
-  }  
-
-  .skillsLink{
-    display: none;
-  }  
-
-  .hobbiesLink{
+  .sobreMiLink {
     display: none;
   }
 
-  .formacionLink{
+  .skillsLink {
     display: none;
   }
 
-  .proyectosLink{
+  .hobbiesLink {
     display: none;
-  }  
+  }
 
-  .contactoLink{
+  .formacionLink {
+    display: none;
+  }
+
+  .proyectosLink {
+    display: none;
+  }
+
+  .contactoLink {
     font-size: 14px;
     margin: 0px 10px;
   }
 
-  .intro{
+  .intro {
     width: 328px;
     display: flex;
     flex-direction: column;
@@ -574,9 +664,8 @@ nav a {
     margin: 16px 0px;
     width: 100%;
   }
-  
 
-  .intro .intro-left h2{
+  .intro .intro-left h2 {
     margin: 16px 0px;
     font-size: 22px;
     line-height: 26px;
@@ -587,7 +676,7 @@ nav a {
 
   .intro .intro-left p {
     flex: none;
-    order: 1; 
+    order: 1;
     font-size: 14px;
     line-height: 16px;
     margin: 16px 0px;
@@ -602,15 +691,14 @@ nav a {
     margin: 16px 0px;
   }
 
-  .intro .intro-left li{
+  .intro .intro-left li {
     flex: none;
     order: 3;
     margin: 0px 4px;
     padding: 0;
+  }
 
-  }  
-
-  .intro .intro-left a{
+  .intro .intro-left a {
     font-size: 14px;
     line-height: 16px;
     margin: 0;
@@ -630,13 +718,13 @@ nav a {
     width: 100%;
   }
 
-  .container-sobre-mi{
+  .container-sobre-mi {
     width: 328px;
     margin: auto;
     padding: 16px;
   }
 
-  .sobre-mi{
+  .sobre-mi {
     width: 100%;
     margin: 0px;
     padding: 16px;
@@ -651,7 +739,7 @@ nav a {
   .sobre-mi p {
     font-size: 14px;
     margin: 16px 0px;
-    line-height: 16px; 
+    line-height: 16px;
   }
 
   .container-skills-hobbies {
@@ -670,7 +758,7 @@ nav a {
     width: 100%;
   }
 
-  .container-skills-hobbies h2 {    
+  .container-skills-hobbies h2 {
     font-size: 22px;
     margin: 32px 0px;
     line-height: 26px;
@@ -699,13 +787,13 @@ nav a {
     margin: 0;
     padding: 0;
   }
-  
+
   .container-hobbies {
     margin: 0px 16px;
     padding: 16px;
-    width: 100%;  
+    width: 100%;
   }
-  
+
   .container-hobbies ul {
     display: flex;
     align-items: flex-start;
@@ -713,27 +801,27 @@ nav a {
     padding: 0px;
     margin: 0px;
   }
-  
-  .container-images{
+
+  .container-images {
     color: #464646;
-    background:#ffffff;
-    display: flex; 
+    background: #ffffff;
+    display: flex;
     flex-direction: column;
     height: 174px;
     justify-content: flex-end;
     margin: 16px;
-    width: 124px; 
+    width: 124px;
   }
-  
-  .container-images p{
+
+  .container-images p {
     color: #464646;
     font-size: 16px;
     font-weight: bold;
     height: 19px;
     width: 124px;
   }
-  
-  .imagen-hobbies{
+
+  .imagen-hobbies {
     height: 30.67px;
     width: 22.67px;
   }
