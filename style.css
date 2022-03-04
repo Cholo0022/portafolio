@@ -5,14 +5,10 @@ body {
   width: 1440px;
 }
 
-.container-header-intro-sobreMi {
-  margin: 0 auto;
-  padding: 0 15px;  
-  width: 1136px;
-}
-
 header {  
-  width: 100%;
+  width: 1136px;
+  margin: 32px auto;
+  padding: 32px 0;
 }
 
 header .cabecera {
@@ -27,6 +23,7 @@ header .cabecera {
 .logo{
   align-items: center;
   display: flex;
+  margin-right: 0;
 }
 
 .logo-estrellas{
@@ -56,24 +53,22 @@ h1 {
 
 nav li {
   display: inline;
-  margin: 0 0 0 15px;
+  margin-left: 0;
+  padding: 0;
 }
 
 nav a {
   color: #464646;
   text-transform: uppercase;
   text-decoration: none;    
-}
-
-main {
-  width: 100%;
+  margin: 0 16px;
 }
 
 .intro {
   display: flex;
-  background: #EAF2FD;
-  margin: 32px 0;
-  width: 100%; 
+  margin: 32px auto;
+  padding: 0;
+  width: 1136px; 
 }
 
 .intro .intro-left {
@@ -87,7 +82,6 @@ main {
   font-size: 52px;
   margin: 24px 0;
   line-height: 61px;  
-  padding: 61px 0 24px 10px;
 }
 
 .intro .intro-left p {
@@ -96,16 +90,16 @@ main {
   font-size: 22px;
   margin: 24px 0;
   line-height: 26px;
-  padding: 10px;
 }
 
 .intro .intro-left ul {
-  margin: 24px 0;
+  margin: 24px 0px;
 }
 
 .intro .intro-left li {
   display: inline;
-  margin: 0 0 0 15px;
+  margin:0 32px;
+  padding: 0;
 }
 
 .intro .intro-left a {
@@ -125,15 +119,22 @@ main {
 }
 
 .intro .intro-right img {
-  border-radius: 50%;
-  height: 100%;
+  border-radius: 50%;  
   max-width: 368px;
   max-height: 368px;
-  width: 100%;  
+  margin: 0;
+}
+
+
+.container-sobre-mi{
+  background: #EAF2FD;
+  padding: 64px;
+  margin: 32px 0;
+
 }
 
 .sobre-mi { 
-  margin: 32px auto;
+  margin: 10px auto;
   width: 751px;
 }
 
@@ -157,6 +158,7 @@ main {
 
 .container-skills-hobbies {
   padding: 0;
+  margin: 32px 0;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -164,7 +166,7 @@ main {
 }
 
 .container-skills {
-  margin: 88px 0px;
+  margin: 32px 0px;
   padding: 0px;
   width: 1136px;
 }
@@ -194,14 +196,14 @@ main {
 }
 
 .container-hobbies {
-  margin: 88px 0px;
+  margin: 32px 0px;
   padding: 0px;
   width: 1136px;  
 }
 
 .container-hobbies ul {
-  display: flex;  
-  width: 100%;
+  display: flex;
+  justify-content: space-around;
 }
 
 .container-images{
@@ -212,7 +214,7 @@ main {
   height: 174px;
   justify-content: flex-end;
   margin: 0px 16px;
-  width: 176px; 
+  width: 144px; 
 }
 
 .container-images p{
@@ -228,22 +230,64 @@ main {
   width: 22.67px;
 }
 
-footer {
-  border: 1px solid red;
-  width: 100%;
+.formacion-academica{
+  background: #EAF2FD;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 88px 0px;
+  padding: 82px;
 }
 
+.formacion-academica h2{
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 38px;
+  margin: 32px 0px;
+}
+
+.container-images-formacion{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.contenedor-imagen img{
+  margin: 0px 10px;
+  width: 190px;
+}
+
+.formacion{
+  margin: 0px 16px;
+  padding: 0;
+}
+
+.formacion p{
+  font-size: 22px;
+  margin: 8px 0px;
+}
+
+.contenedor-imagen{
+  width: 368px;
+  height: 286px;
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 /* Sector responsive tablet */
 
-@media screen and (max-width:768px) {
+@media (max-width:768px) {
   body{
     width: 768px;
   }
-  .container-header-intro-sobreMi {
-    margin: 0;
+
+  header{
     width: 704px;
-  
+    margin: 0;
+    padding: 16px 32px;
   }
 
   header .cabecera{
@@ -252,7 +296,6 @@ footer {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 16px 8px;
     width: 100%;
   }
 
@@ -289,9 +332,9 @@ footer {
   }  
 
   .intro{
-    width: 100%;
-    margin: 0px;
-    padding: auto;
+    width: 704px;
+    margin: 10px auto;
+    padding: 0;
   }
 
   .intro .intro-left {
@@ -309,7 +352,7 @@ footer {
   .intro .intro-left p {
     font-size: 16px;
     line-height: 19px;
-    margin: 8px 0px;
+    margin: 16px 0px;
   }
 
   .intro .intro-left ul {
@@ -336,6 +379,12 @@ footer {
     
   }
 
+  .container-sobre-mi{
+    width: 704px;
+    margin: auto;
+    padding: 32px;
+  }
+  
   .sobre-mi{
     width: 100%;
     margin: 0px;
@@ -352,7 +401,6 @@ footer {
     font-size: 14px;
     margin: 16px 0px;
     line-height: 16px;  
-    text-align: justify;
   }
 
   .container-skills-hobbies {
@@ -413,7 +461,7 @@ footer {
     flex-direction: column;
     height: 174px;
     justify-content: flex-end;
-    margin: 0px 16px;
+    margin: 16px 16px;
     width: 176px; 
   }
   
@@ -429,8 +477,6 @@ footer {
     height: 30.67px;
     width: 22.67px;
   }
-
-
 }
 
 /* Sector responsive mobile */
@@ -439,16 +485,15 @@ footer {
   body{
     width: 360px;
   }
-  .container-header-intro-sobreMi {
-    margin: 0;
-    padding: 0;
+
+  header{
     width: 328px;
-  
+    padding: 16px;
+    margin: 0;
   }
 
   header .cabecera{
-    flex: none;
-    margin: 0px 0px;
+    margin: 0px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -514,6 +559,7 @@ footer {
   }
 
   .intro{
+    width: 328px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -584,6 +630,12 @@ footer {
     width: 100%;
   }
 
+  .container-sobre-mi{
+    width: 328px;
+    margin: auto;
+    padding: 16px;
+  }
+
   .sobre-mi{
     width: 100%;
     margin: 0px;
@@ -599,8 +651,7 @@ footer {
   .sobre-mi p {
     font-size: 14px;
     margin: 16px 0px;
-    line-height: 16px;  
-    text-align: justify;
+    line-height: 16px; 
   }
 
   .container-skills-hobbies {
@@ -650,19 +701,17 @@ footer {
   }
   
   .container-hobbies {
-    margin: 0px 0px;
-    padding: 0px;
+    margin: 0px 16px;
+    padding: 16px;
     width: 100%;  
   }
   
   .container-hobbies ul {
     display: flex;
-    justify-content: center;
     align-items: flex-start;
     flex-wrap: wrap;
     padding: 0px;
     margin: 0px;
-    width: 100%;
   }
   
   .container-images{
@@ -672,8 +721,8 @@ footer {
     flex-direction: column;
     height: 174px;
     justify-content: flex-end;
-    margin: 0px 0px;
-    width: 176px; 
+    margin: 16px;
+    width: 124px; 
   }
   
   .container-images p{
@@ -681,13 +730,11 @@ footer {
     font-size: 16px;
     font-weight: bold;
     height: 19px;
-    width: 144px;
+    width: 124px;
   }
   
   .imagen-hobbies{
     height: 30.67px;
     width: 22.67px;
   }
-
-
 }
