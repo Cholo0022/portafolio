@@ -1,3 +1,8 @@
+html{
+  width: 1440px;
+  margin: 0 auto;
+}
+
 body {
   background: #f5f5f5;
   color: #464646;
@@ -5,10 +10,14 @@ body {
   width: 1440px;
 }
 
+main{
+   border: 1px solid black; 
+}
+
 header {
   width: 1136px;
   margin: 32px auto;
-  padding: 32px 0;
+  padding: 32px auto;
 }
 
 header .cabecera {
@@ -370,209 +379,468 @@ nav a {
   text-decoration: none;
 }
 
+.contacto{
+  background: #EAF2FD;
+}
+
+.sector-contacto{
+  width: 1136px;
+  display: flex;
+  margin: 32px auto;
+  
+}
+
+.imagen-contacto{
+  background: url(images/telefono.png);
+  width: 464px;
+  height: 593px;
+  margin: 0px 16px;
+}
+
+.sector-formulario{
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto;
+  padding: 0px;
+}
+
+.sector-formulario h2{
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 38px;
+  margin: 8px 0px;
+}
+
+.sector-formulario p{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  margin: 8px 0px;
+}
+
+.formulario{
+  display: flex;
+  flex-direction: column;
+}
+
+.formulario label{
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #2A7AE4;
+  border-radius: 4px;
+  width: 632px;
+  padding: 0;
+  margin: 0;
+  background: #ffffff;
+}
+
+.formulario input{
+  border-radius: 4px;
+  width: 632px;
+  height: 40px;
+  padding: 0;
+  margin-bottom: 16px;
+  border: none;
+}
+
+.formulario textarea{
+  border: none;
+}
+
+.formulario button{
+  background: #2A7AE4;
+  width: 165px;
+  height: 51px;
+  padding: 16px;
+  margin: 45px 0 0 0;
+  border: none;
+}
+
+.formulario a{
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.footer{
+  display: flex;
+  flex-direction: column;  
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  margin: 32px auto;
+  text-align: center;
+  padding: 32px auto;  
+}
+
 /* Sector responsive tablet */
 
 @media (max-width: 768px) {
-  body {
-    width: 768px;
-  }
+    body {
+      width: 768px;
+    }
 
-  header {
+    header {
+      width: 704px;
+      margin: 0;
+      padding: 16px 32px;
+    }
+
+    header .cabecera {
+      margin: 0;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+    }
+
+    .cabecera ul {
+      margin: 0px 10px;
+    }
+
+    .logo-estrellas {
+      margin: 0px 8px;
+    }
+
+    .logo h1 {
+      margin: 0px 8px;
+    }
+
+    .sobreMiLink {
+      display: none;
+    }
+
+    .skillsLink {
+      display: none;
+    }
+
+    .hobbiesLink {
+      display: none;
+    }
+
+    .formacionLink {
+      display: none;
+    }
+
+    .proyectosLink {
+      display: none;
+    }
+
+    .intro {
+      width: 704px;
+      margin: 10px auto;
+      padding: 0;
+    }
+
+    .intro .intro-left {
+      padding-right: 17px;
+      width: calc(100% - 146px);
+    }
+
+    .intro .intro-left h2 {
+      margin: 8px 0px;
+      font-size: 22px;
+      line-height: 26px;
+    }
+
+    .intro .intro-left p {
+      font-size: 16px;
+      line-height: 19px;
+      margin: 16px 0px;
+    }
+
+    .intro .intro-left ul {
+      margin: 24px 0;
+      padding: 0;
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+    }
+
+    .intro .intro-right {
+      max-width: 146px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .intro .intro-right img {
+      max-width: 146px;
+      max-height: 146px;
+      margin: 0 32px;
+      height: 100%;
+      width: 100%;
+    }
+
+    .container-sobre-mi {
+      width: 704px;
+      margin: auto;
+      padding: 32px;
+    }
+
+    .sobre-mi {
+      width: 100%;
+      margin: 0px;
+      padding: auto;
+    }
+
+    .sobre-mi h2 {
+      font-size: 22px;
+      line-height: 26px;
+      margin: 16px 0px;
+    }
+
+    .sobre-mi p {
+      font-size: 14px;
+      margin: 16px 0px;
+      line-height: 16px;
+    }
+
+    .container-skills-hobbies {
+      padding: 32px 16px;
+      margin: auto;
+      width: 704px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .container-skills {
+      margin: 32px 0px;
+      padding: 0px;
+      width: 100%;
+    }
+
+    .container-skills-hobbies h2 {
+      font-size: 22px;
+      margin: 32px 0px;
+      line-height: 26px;
+    }
+
+    .container-skills ul {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      padding: 16px;
+      margin: 0px;
+      width: 100%;
+    }
+    .container-skills img {
+      width: 192px;
+    }
+
+    .container-hobbies {
+      margin: 32px 0px;
+      padding: 0px;
+      width: 100%;
+    }
+
+    .container-hobbies ul {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      padding: 16px;
+      margin: 0px;
+      width: 100%;
+    }
+
+    .container-images {
+      color: #464646;
+      background: #ffffff;
+      display: flex;
+      flex-direction: column;
+      height: 174px;
+      justify-content: flex-end;
+      margin: 16px 16px;
+      width: 176px;
+    }
+
+    .container-images p {
+      color: #464646;
+      font-size: 16px;
+      font-weight: bold;
+      height: 19px;
+      width: 144px;
+    }
+
+    .imagen-hobbies {
+      height: 30.67px;
+      width: 22.67px;
+    }
+
+    .formacion-academica {
+      
+      background: #eaf2fd;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0px auto;
+      padding: 0px;
+    }
+    
+    .formacion-academica h2 {
+      font-weight: bold;
+      font-size: 22px;
+      line-height: 26px;
+      margin: 32px 0px;
+    }
+    
+    .container-images-formacion {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin: 32px 0px;
+      padding: 0;
+    }
+    
+    .contenedor-imagen img {
+      margin: 0px 10px;
+      width: 84px;
+    }
+    
+    .formacion {
+      margin: 0px 16px;
+      padding: 0;
+    }
+    
+    .formacion p {
+      font-size: 16px;
+      font-weight: bold;
+      line-height: 19px;
+    }
+    
+    .formacion .fecha {
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 16px;
+    }
+    
+    .contenedor-imagen {
+      width: 224px;
+      height: 169px;
+      background: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+  .experiencia-profesional {
     width: 704px;
-    margin: 0;
-    padding: 16px 32px;
-  }
-
-  header .cabecera {
-    margin: 0;
+    margin: 0px auto;
+    padding: 0px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
-    width: 100%;
   }
 
-  .cabecera ul {
-    margin: 0px 10px;
-  }
-
-  .logo-estrellas {
-    margin: 0px 8px;
-  }
-
-  .logo h1 {
-    margin: 0px 8px;
-  }
-
-  .sobreMiLink {
-    display: none;
-  }
-
-  .skillsLink {
-    display: none;
-  }
-
-  .hobbiesLink {
-    display: none;
-  }
-
-  .formacionLink {
-    display: none;
-  }
-
-  .proyectosLink {
-    display: none;
-  }
-
-  .intro {
-    width: 704px;
-    margin: 10px auto;
-    padding: 0;
-  }
-
-  .intro .intro-left {
-    padding-right: 17px;
-    width: calc(100% - 146px);
-  }
-
-  .intro .intro-left h2 {
-    margin: 8px 0px;
+  .experiencia-profesional h2 {
+    font-weight: bold;
     font-size: 22px;
     line-height: 26px;
-  }
-
-  .intro .intro-left p {
-    font-size: 16px;
-    line-height: 19px;
     margin: 16px 0px;
   }
 
-  .intro .intro-left ul {
-    margin: 24px 0;
+  .experiencia {
+    width: 100%;
     padding: 0;
+    margin: 32px auto;
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-  }
-
-  .intro .intro-right {
-    max-width: 146px;
-    display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
   }
 
-  .intro .intro-right img {
-    max-width: 146px;
-    max-height: 146px;
-    margin: 0 32px;
-    height: 100%;
-    width: 100%;
+  .experiencia-encriptador {
+    width: 704px;
+    height: 358px;
+    background: url(images/encriptador-tablet.png);
+    margin:0;
+    padding:0;
   }
 
-  .container-sobre-mi {
+  .experiencia-ahorcado {
     width: 704px;
-    margin: auto;
+    height: 429px;
+    background: url(images/ahorcado-tablet.png);
+    margin: 0;
+    padding: 0;
+    order: -1;
+  }
+
+  .experiencia-info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 16px 0;
+  }
+
+  .nombre-proyecto {
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 26px;
+    margin: 8px 16px;
+  }
+
+  .descripcion-proyecto {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    margin: 8px 16px;
+  }
+
+  .repositorio {
+    color: #2a7ae4;
+    border: 1px solid #2a7ae4;
+    box-sizing: border-box;
+    padding: 16px;
+    margin: 0 16px;
+    cursor: pointer;
+  }
+
+  .repositorio a {
+    text-decoration: none;
+    color: #2a7ae4;
+  }
+
+  .demo {
+    background: #2a7ae4;
+    border: none;
+    padding: 16px;
+    margin: 0 16px;
+    color: #f5f5f5;
+    cursor: pointer;
+  }
+
+  .demo a {
+    text-decoration: none;
+  }
+
+  /* Contacto */
+
+  .sector-contacto{
+    width: 704px;
+    margin: 0 0;
     padding: 32px;
   }
 
-  .sobre-mi {
-    width: 100%;
-    margin: 0px;
-    padding: auto;
+  .imagen-contacto{
+    display: none;
   }
 
-  .sobre-mi h2 {
-    font-size: 22px;
-    line-height: 26px;
-    margin: 16px 0px;
-  }
-
-  .sobre-mi p {
-    font-size: 14px;
-    margin: 16px 0px;
-    line-height: 16px;
-  }
-
-  .container-skills-hobbies {
-    padding: 32px 16px;
-    margin: auto;
-    width: 704px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .container-skills {
-    margin: 32px 0px;
-    padding: 0px;
-    width: 100%;
-  }
-
-  .container-skills-hobbies h2 {
-    font-size: 22px;
-    margin: 32px 0px;
-    line-height: 26px;
-  }
-
-  .container-skills ul {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    padding: 16px;
-    margin: 0px;
-    width: 100%;
-  }
-  .container-skills img {
-    width: 192px;
-  }
-
-  .container-hobbies {
-    margin: 32px 0px;
-    padding: 0px;
-    width: 100%;
-  }
-
-  .container-hobbies ul {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    padding: 16px;
-    margin: 0px;
-    width: 100%;
-  }
-
-  .container-images {
-    color: #464646;
-    background: #ffffff;
-    display: flex;
-    flex-direction: column;
-    height: 174px;
-    justify-content: flex-end;
-    margin: 16px 16px;
-    width: 176px;
-  }
-
-  .container-images p {
-    color: #464646;
-    font-size: 16px;
-    font-weight: bold;
-    height: 19px;
-    width: 144px;
-  }
-
-  .imagen-hobbies {
-    height: 30.67px;
-    width: 22.67px;
-  }
 }
 
 /* Sector responsive mobile */
 
 @media screen and (max-width: 360px) {
-  body {
+
+  html{
+    width: 360px;    
+  }
+  body{
     width: 360px;
   }
 
@@ -583,7 +851,7 @@ nav a {
   }
 
   header .cabecera {
-    margin: 0px;
+    margin: 0px auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -720,8 +988,9 @@ nav a {
 
   .container-sobre-mi {
     width: 328px;
-    margin: auto;
+    margin: 0 auto;
     padding: 16px;
+    display: flex;
   }
 
   .sobre-mi {
@@ -753,8 +1022,7 @@ nav a {
   }
 
   .container-skills {
-    margin: 0px 16px;
-    padding: 16px;
+    margin: 0px auto;
     width: 100%;
   }
 
@@ -789,8 +1057,7 @@ nav a {
   }
 
   .container-hobbies {
-    margin: 0px 16px;
-    padding: 16px;
+    margin: 0px auto;
     width: 100%;
   }
 
@@ -825,4 +1092,68 @@ nav a {
     height: 30.67px;
     width: 22.67px;
   }
+
+  .container-images-formacion{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .formacion{
+    width: 296px;
+  }
+  
+  .contenedor-imagen{
+    width: 296px;
+  }
+
+  .formacion p {
+    margin: 8px 0;
+  }
+
+  .experiencia-profesional{
+    margin: 0;
+    padding: 32px;
+    width: 296px;
+  }
+
+  .experiencia-encriptador{
+    width: 296px;
+    height: 150px;
+    background: url(images/encriptador-mobile.png);
+  }
+
+  .experiencia-ahorcado{
+    width: 296px;
+    height: 180px;
+    background: url(images/ahorcado-mobile.png);
+  }
+
+  .sector-contacto{
+    width: 296px;
+  }
+
+  .formulario label {
+    width: 296px;
+    margin: 32px 0 0 0;
+    padding: 0;
+  }
+
+  .formulario input{
+    width: 296px;
+    margin: 0px 0 32px 0;
+    padding: 0;
+  }
+
+  .formulario button{
+    margin: 32px 0px;
+    padding: 12px 16px;
+  }
+
+  .formulario a{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    margin: 0 10px;
+  }
+  
 }
