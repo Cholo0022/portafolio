@@ -34,6 +34,7 @@ header .cabecera {
 .logo-estrellas {
   margin: 0px 8px;
   width: 24px;
+  position: relative;
 }
 
 .cabecera .estrella-grande-logo {
@@ -43,10 +44,16 @@ header .cabecera {
 
 .cabecera .estrella-chica-superior-logo {
   color: #464646;
+  position: absolute;
+  margin-top: 0;
+  margin-left: 4px;
 }
 
 .cabecera .estrella-chica-inferior-logo {
   color: #464646;
+  position: absolute;
+  margin-top: 8px;
+  margin-left: 4px;
 }
 
 h1 {
@@ -424,7 +431,8 @@ nav a {
   font-size: 12px;
   line-height: 16px;
   color: #2a7ae4;
-  border-radius: 4px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
   width: 632px;
   padding: 0;
   margin: 0;
@@ -449,7 +457,7 @@ nav a {
   width: 165px;
   height: 51px;
   padding: 16px;
-  margin: 45px 0 0 0;
+  margin: 53px 0 0 0;
   border: none;
 }
 
