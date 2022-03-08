@@ -19,6 +19,10 @@
       rel="stylesheet"
     />
     <title>Portafolio</title>
+    <!-- El script de la librería-->
+    <script src="html2pdf.bundle.min.js"></script>
+    <!--Nuestro script, que se encarga de crear el PDF usando la librería-->
+    <script src="script.js"></script>
   </head>
   <body>
     <header>
@@ -76,12 +80,16 @@
               >
             </li>
             <li>
-              <button id="btnCrearPdf">Click aquí</button>
+              <a
+                href="javascript:window.open('http://localhost/portafolio/curriculum.pdf');"
+              >
+                link​​​​​​​​​​​​​​​​​
+              </a>
             </li>
           </ul>
         </div>
         <div class="intro-right">
-          <img src="images/foto-perfil.jpg" />
+          <img src="images/foto-perfil.png" />
         </div>
       </div>
       <section id="sobreMi">
@@ -106,14 +114,14 @@
           <h2>Skills</h2>
           <div class="container-skills">
             <ul>
-              <li><img src="images/html5.svg" alt="Logo de HTML5" /></li>
-              <li><img src="images/css3.svg" alt="Logo de CSS3" /></li>
-              <li><img src="images/js.svg" alt="Logo de Javascript" /></li>
+              <li><img src="images/html5.png" alt="Logo de HTML5" /></li>
+              <li><img src="images/css3.png" alt="Logo de CSS3" /></li>
+              <li><img src="images/js.png" alt="Logo de Javascript" /></li>
               <li>
-                <img src="images/bootstrap-4.svg" alt="Logo de Bootstrap" />
+                <img src="images/bootstrap-4.png" alt="Logo de Bootstrap" />
               </li>
-              <li><img src="images/git.svg" alt="Logo de Git" /></li>
-              <li><img src="images/github.svg" alt="Logo de GitHub" /></li>
+              <li><img src="images/git.png" alt="Logo de Git" /></li>
+              <li><img src="images/github.png" alt="Logo de GitHub" /></li>
             </ul>
           </div>
         </section>

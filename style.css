@@ -111,6 +111,7 @@ nav a {
   color: #464646;
   padding: 10px auto;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .intro .intro-left li ::before {

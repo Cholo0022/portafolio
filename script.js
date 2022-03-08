@@ -6,18 +6,18 @@ document.addEventListener("DOMContentLoaded", () => {
     html2pdf()
       .set({
         margin: 1,
-        filename: "documento.pdf",
+        filename: "curriculum.pdf",
         image: {
-          type: "jpeg, png, svg",
+          type: "png",
           quality: 0.98,
         },
         html2canvas: {
-          scale: 3, // A mayor escala, mejores gráficos, pero más peso
+          scale: 1, // A mayor escala, mejores gráficos, pero más peso
           letterRendering: true,
         },
         jsPDF: {
           unit: "in",
-          format: "a3",
+          format: "a2",
           orientation: "portrait", // landscape o portrait
         },
       })
