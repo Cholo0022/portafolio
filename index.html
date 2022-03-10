@@ -19,10 +19,6 @@
       rel="stylesheet"
     />
     <title>Portafolio</title>
-    <!-- El script de la librería-->
-    <script src="html2pdf.bundle.min.js"></script>
-    <!--Nuestro script, que se encarga de crear el PDF usando la librería-->
-    <script src="script.js"></script>
   </head>
   <body>
     <header>
@@ -60,7 +56,7 @@
       </div>
     </header>
     <main>
-      <div class="intro">
+      <div id="btn" class="intro">
         <div class="intro-left">
           <h2>Bienvenidos a mi Portafolio</h2>
           <p>
@@ -80,7 +76,9 @@
               >
             </li>
             <li>
-              <a id="btnCrearPdf">Curriculum</a>
+              <a href="curriculum.pdf" target="_blank" rel="noopener noreferrer"
+                >Curriculum</a
+              >
             </li>
           </ul>
         </div>
@@ -240,7 +238,12 @@
                     >Repositorio</a
                   >
                 </button>
-                <button class="demo">Ver demo</button>
+                <button class="demo">
+                <a
+                  href="https://cholo0022.github.io/encriptador/challenge-oracle-decoder-esp-main/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >Ver demo</a></button>
               </div>
             </div>
           </div>
@@ -261,8 +264,10 @@
                   >
                 </button>
                 <button class="demo">
-                  <a href="#" target="_blank" rel="noopener noreferrer"></a> Ver
-                  demo
+                  <a href="https://cholo0022.github.io/challenge-oracle-hangman-esp-main/"
+                   target="_blank" 
+                   rel="noopener noreferrer">Ver
+                   demo</a>
                 </button>
               </div>
             </div>
@@ -319,5 +324,6 @@
       &copy; Copyright Andrés A. Bozzani
       <p>2022</p>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
