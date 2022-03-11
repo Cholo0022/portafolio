@@ -1,0 +1,85 @@
+.container-sobre-mi {
+    background: #eaf2fd;
+    margin: 32px 0;
+    padding: 64px;
+  }
+  
+  .sobre-mi {
+    margin: 10px auto;
+    width: 751px;
+  }
+  
+  .sobre-mi h2 {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+  }
+  
+  .sobre-mi p {
+    font-size: 16px;
+    line-height: 19px;
+    margin: 16px 0px;
+    text-align: justify;
+  }
+  
+  .sobre-mi img {
+    margin: 16px 0;
+    width: 140px;
+  }
+  
+   /* Sector responsive tablet */
+
+ @media (max-width: 768px){
+  .container-sobre-mi {
+    margin: auto;
+    padding: 32px;
+    width: 704px;
+  }
+
+  .sobre-mi {
+    margin: 0px;
+    padding: auto;
+    width: 100%;
+  }
+
+  .sobre-mi h2 {
+    font-size: 22px;
+    line-height: 26px;
+    margin: 16px 0px;
+  }
+
+  .sobre-mi p {
+    font-size: 14px;
+    line-height: 16px;
+    margin: 16px 0px;
+  }
+ }
+
+ /* Sector responsive mobile */
+
+@media screen and (max-width: 360px){
+  .container-sobre-mi {
+    display: flex;
+    margin: 0 auto;
+    padding: 16px;
+    width: 328px;
+  }
+
+  .sobre-mi {
+    margin: 0px;
+    padding: 16px;
+    width: 100%;
+  }
+
+  .sobre-mi h2 {
+    font-size: 22px;
+    line-height: 26px;
+    margin: 16px 0px;
+  }
+
+  .sobre-mi p {
+    font-size: 14px;
+    margin: 16px 0px;
+    line-height: 16px;
+  }
+}

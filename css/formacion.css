@@ -1,0 +1,132 @@
+.formacion-academica {
+    align-items: center;
+    background: #eaf2fd;
+    display: flex;
+    flex-direction: column;  
+    margin: 88px 0px;
+    padding: 82px;
+  }
+  
+  .formacion-academica h2 {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+    margin: 32px 0px;
+  }
+  
+  .container-images-formacion {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .contenedor-imagen img {
+    margin: 0px 10px;
+    width: 190px;
+  }
+  
+  .formacion {
+    margin: 0px 16px;
+    padding: 0;
+  }
+  
+  .formacion p {
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 26px;
+  }
+  
+  .formacion .fecha {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  
+  .contenedor-imagen {
+    align-items: center;
+    background: #ffffff;
+    display: flex;
+    height: 286px;
+    justify-content: center;
+    width: 368px;
+  }
+  
+ /* Sector responsive tablet */
+
+@media (max-width: 768px){
+  .formacion-academica {
+    align-items: center;
+    background: #eaf2fd;
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    padding: 0px;
+  }
+
+  .formacion-academica h2 {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    margin: 32px 0px;
+  }
+
+  .container-images-formacion {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    margin: 32px 0px;
+    padding: 0;
+  }
+
+  .contenedor-imagen img {
+    margin: 0px 10px;
+    width: 84px;
+  }
+
+  .formacion {
+    margin: 0px 16px;
+    padding: 0;
+  }
+
+  .formacion p {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 19px;
+  }
+
+  .formacion .fecha {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .contenedor-imagen {
+    align-items: center;
+    background: #ffffff;
+    display: flex;
+    height: 169px;
+    justify-content: center;
+    width: 224px;
+  }
+ }
+
+  /* Sector responsive mobile */
+
+@media screen and (max-width: 360px){
+  .formacion {
+    width: 296px;
+  }
+  
+  .container-images-formacion {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contenedor-imagen {
+    width: 296px;
+  }
+
+  .formacion p {
+    margin: 8px 0;
+  }
+}

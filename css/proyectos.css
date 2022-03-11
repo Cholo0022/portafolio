@@ -1,0 +1,207 @@
+.experiencia-profesional {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 32px auto;
+    padding: 82px;
+    width: 1136px;
+  }
+  
+  .experiencia-profesional h2 {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+    margin: 32px 0px;
+  }
+  
+  .experiencia {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 32px 0;
+    width: 100%;
+  }
+  
+  .experiencia-encriptador {
+    background: url(../images/encriptador.png);
+    height: 382px;
+    margin: 0;
+    padding: 0;
+    width: 752px;
+  }
+  
+  .experiencia-ahorcado {  
+    background: url(../images/ahorcado.png);
+    height: 458px;
+    margin: 0;
+    padding: 0;
+    width: 752px;
+  }
+  
+  .experiencia-info {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    width: calc(100% - 752px);
+  }
+  
+  .nombre-proyecto {
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 26px;
+    margin: 8px 16px;
+  }
+  
+  .descripcion-proyecto {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    margin: 8px 16px;
+  }
+  
+  .repositorio {
+    box-sizing: border-box;
+    border: 1px solid #2a7ae4;
+    color: #2a7ae4;
+    cursor: pointer;
+    margin: 0 16px;
+    padding: 16px;  
+  }
+  
+  .repositorio a {
+    color: #2a7ae4;
+    text-decoration: none;
+  }
+  
+  .demo {
+    background: #2a7ae4;
+    border: none;
+    color: #f5f5f5;
+    cursor: pointer;
+    margin: 0 16px;
+    padding: 16px;
+  }
+  
+  .demo a {
+    color: #f5f5f5;
+    text-decoration: none;
+  }
+  
+  /* Sector responsive tablet */
+
+ @media (max-width: 768px){
+  .experiencia-profesional {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    padding: 0px;    
+    width: 704px;
+  }
+
+  .experiencia-profesional h2 {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    margin: 16px 0px;
+  }
+
+  .experiencia {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 32px auto;
+    padding: 0;
+    width: 100%;
+  }
+
+  .experiencia-encriptador {
+    background: url(images/encriptador-tablet.png);
+    height: 358px;
+    margin: 0;
+    padding: 0;
+    width: 704px;
+  }
+
+  .experiencia-ahorcado {
+    background: url(images/ahorcado-tablet.png);
+    height: 429px;
+    margin: 0;
+    padding: 0;
+    order: -1;
+    width: 704px;
+  }
+
+  .experiencia-info {
+    display: flex;
+    flex-direction: column;
+    margin: 16px 0;
+    width: 100%;
+  }
+
+  .nombre-proyecto {
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 26px;
+    margin: 8px 16px;
+  }
+
+  .descripcion-proyecto {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    margin: 8px 16px;
+  }
+
+  .repositorio {
+    color: #2a7ae4;
+    cursor: pointer;
+    border: 1px solid #2a7ae4;
+    box-sizing: border-box;
+    margin: 0 16px;
+    padding: 16px;
+  }
+
+  .repositorio a {
+    color: #2a7ae4;
+    text-decoration: none;
+  }
+
+  .demo {
+    background: #2a7ae4;
+    border: none;
+    color: #f5f5f5;
+    cursor: pointer;
+    margin: 0 16px;
+    padding: 16px;    
+  }
+
+  .demo a {
+    text-decoration: none;
+  }
+
+ }
+
+ /* Sector responsive mobile */
+
+@media screen and (max-width: 360px){
+  .experiencia-profesional {
+    margin: 0;
+    padding: 32px;
+    width: 296px;
+  }
+
+  .experiencia-encriptador {
+    background: url(images/encriptador-mobile.png);
+    height: 150px;    
+    width: 296px;
+  }
+
+  .experiencia-ahorcado {
+    background: url(images/ahorcado-mobile.png);
+    height: 180px;    
+    width: 296px;
+  }
+
+}
