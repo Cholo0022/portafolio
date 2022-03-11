@@ -70,10 +70,10 @@ nav li {
 }
 
 nav a {
-  color: #464646;
   text-transform: uppercase;
   text-decoration: none;
   margin: 0 16px;
+  color: #464646;
 }
 
 .intro {
