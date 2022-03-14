@@ -3,6 +3,7 @@ body {
   color: #464646;
   font-family: "Raleway", sans-serif;
   width: 1440px;
+  
 }
 
 /* Sector responsive tablet */
@@ -17,6 +18,6 @@ body {
 
 @media screen and (max-width: 360px) {
   body {
-    width: 360px;
-  } 
+    width: 360px; 
+  }   
 }
