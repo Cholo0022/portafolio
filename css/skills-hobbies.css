@@ -2,13 +2,13 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    margin: 32px 0;
+    margin: 88px 0;
     padding: 0;  
     width: 100%;
   }
   
   .container-skills {
-    margin: 32px 0px;
+    margin: 88px 0px;
     padding: 0px;
     width: 1136px;
   }
@@ -21,12 +21,6 @@
     text-align: center;
   }
   
-  .container-skills {
-    margin: 32px 0px;
-    padding: 0px;
-    width: 1136px;
-  }
-
   .container-skills ul {
     display: flex;
     justify-content: space-around;
@@ -38,7 +32,7 @@
   }
     
   .container-hobbies {
-    margin: 32px 0px;
+    margin: 88px 0px;
     padding: 0px;
     width: 1136px;
   }
@@ -173,7 +167,7 @@
   }
 
   .container-hobbies {
-    margin: 0px auto;
+    margin: 88px auto;
     width: 100%;
   }
 
