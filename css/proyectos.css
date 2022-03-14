@@ -117,7 +117,7 @@
   }
 
   .experiencia-encriptador {
-    background: url(images/encriptador-tablet.png);
+    background: url(../images/encriptador-tablet.png);
     height: 358px;
     margin: 0;
     padding: 0;
@@ -125,7 +125,7 @@
   }
 
   .experiencia-ahorcado {
-    background: url(images/ahorcado-tablet.png);
+    background: url(../images/ahorcado-tablet.png);
     height: 429px;
     margin: 0;
     padding: 0;
@@ -193,13 +193,13 @@
   }
 
   .experiencia-encriptador {
-    background: url(images/encriptador-mobile.png);
+    background: url(../images/encriptador-mobile.png);
     height: 150px;    
     width: 296px;
   }
 
   .experiencia-ahorcado {
-    background: url(images/ahorcado-mobile.png);
+    background: url(../images/ahorcado-mobile.png);
     height: 180px;    
     width: 296px;
   }
