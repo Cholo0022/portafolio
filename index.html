@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/reset.css" />
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/intro.css">
-    <link rel="stylesheet" href="css/sobre-mi.css">
-    <link rel="stylesheet" href="css/skills-hobbies.css">
-    <link rel="stylesheet" href="css/formacion.css">
-    <link rel="stylesheet" href="css/proyectos.css">
-    <link rel="stylesheet" href="css/contacto.css">
-    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/intro.css" />
+    <link rel="stylesheet" href="css/sobre-mi.css" />
+    <link rel="stylesheet" href="css/skills-hobbies.css" />
+    <link rel="stylesheet" href="css/formacion.css" />
+    <link rel="stylesheet" href="css/proyectos.css" />
+    <link rel="stylesheet" href="css/contacto.css" />
+    <link rel="stylesheet" href="css/footer.css" />
 
     <link rel="stylesheet" href="./css/style.css" />
 
@@ -351,14 +351,10 @@
               Rellena el formulario que hay al lado y me pondré en contacto
               contigo lo antes posible.
             </p>
-            <form action="#" class="formulario">
+            <form class="formulario">
               <label for="nombre">Nombre</label>
-              <input
-                type="text"
-                name="nombre"
-                id="nombre"
-                placeholder="Andrés"
-              />
+              <input type="text" name="nombre" id="nombre" placeholder="Juan" />
+              <span id="mensajeError"></span>
               <label for="email">E-mail</label>
               <input
                 type="email"
@@ -366,6 +362,7 @@
                 id="emails"
                 placeholder="mail@mail.com"
               />
+
               <label for="asunto"></label>
               <input
                 type="text"
@@ -380,7 +377,9 @@
                 rows="10"
                 placeholder="Escriba aquí su mensaje"
               ></textarea>
-              <button><a href="#">Enviar mensaje</a></button>
+              <button type="button" id="botonEnviar">
+                <a>Enviar mensaje</a>
+              </button>
             </form>
           </div>
         </div>
@@ -390,6 +389,6 @@
       &copy; Copyright Andrés A. Bozzani
       <p>2022</p>
     </footer>
-    <script src="script.js"></script>
+    <script src="../portafolio/js/script.js"></script>
   </body>
 </html>
