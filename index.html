@@ -341,7 +341,7 @@
           </div>
         </div>
       </section>
-      <section id="contacto" class="contacto">
+      <section class="contacto">
         <div class="sector-contacto">
           <div class="imagen-contacto"></div>
           <div class="sector-formulario">
@@ -351,26 +351,27 @@
               Rellena el formulario que hay al lado y me pondré en contacto
               contigo lo antes posible.
             </p>
-            <form class="formulario">
+            <form action="" class="formulario">
+              <span class="errorNombre"></span>
               <label for="nombre">Nombre</label>
               <input type="text" name="nombre" id="nombre" placeholder="Juan" />
-              <span class="errorNombre"></span>
+              <span class="errorEmail"></span>
               <label for="email">E-mail</label>
               <input
-                type="email"
+                type="text"
                 name="email"
                 id="email"
                 placeholder="mail@mail.com"
               />
-              <span class="errorEmail"></span>
               <label for="asunto"></label>
+              <span class="errorAsunto"></span>
               <input
                 type="text"
                 name="asunto"
                 id="asunto"
                 placeholder="Asunto"
               />
-              <span class="errorAsunto"></span>
+              <span class="errorMensaje"></span>
               <textarea
                 name="mensaje"
                 id="mensaje"
@@ -378,9 +379,8 @@
                 rows="10"
                 placeholder="Escriba aquí su mensaje"
               ></textarea>
-              <span class="errorMensaje"></span>
-              <button type="button" id="botonEnviar" disabled>
-                <a>Enviar mensaje</a>
+              <button type="submit" id="botonEnviar" disabled>
+                Enviar mensaje
               </button>
             </form>
           </div>

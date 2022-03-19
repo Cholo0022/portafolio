@@ -12,7 +12,6 @@ nombre.addEventListener(
       errorNombre.style.color = "red";
     }
     if (nombre.length > 50) {
-      let errorNombre = document.querySelector(".errorNombre");
       errorNombre.textContent = "Solo se permite hasta 50 caracteres";
       errorNombre.style.color = "red";
     }
@@ -39,8 +38,8 @@ let errorEmail = document.querySelector(".errorEmail");
 email.addEventListener(
   "blur",
   function (event) {
-    event.target.style.background = "";
     let email = event.target.value;
+    event.target.style.background = "";
     if (email === "") {
       errorEmail.textContent = "Campo obligatorio";
       errorEmail.style.color = "red";
@@ -121,3 +120,38 @@ mensaje.addEventListener(
   },
   true
 );
+
+function habilitarBoton() {
+  inputNombre = document.getElementById("nombre").value;
+  inputEmail = document.getElementById("email").value;
+  inputAsunto = document.getElementById("asunto").value;
+  inputMensaje = document.getElementById("mensaje").value;
+  let valor = 0;
+  if (inputNombre.length > 0) {
+    valor++;
+  }
+  if (inputEmail.length > 0) {
+    valor++;
+  }
+  if (inputAsunto.length > 0) {
+    valor++;
+  }
+  if (inputMensaje.length > 0) {
+    valor++;
+  }
+  console.log(valor);
+  if (valor >= 4) {
+    document.getElementById("botonEnviar").disabled = false;
+    document.getElementById("botonEnviar").style.color = "#FFFFFF";
+  } else {
+    document.getElementById("botonEnviar").disabled = true;
+  }
+}
+
+document.getElementById("nombre").addEventListener("keyup", habilitarBoton);
+document.getElementById("email").addEventListener("keyup", habilitarBoton);
+document.getElementById("asunto").addEventListener("keyup", habilitarBoton);
+document.getElementById("mensaje").addEventListener("keyup", habilitarBoton);
+document.getElementById("botonEnviar").addEventListener("click", () => {
+  alert("Formulario completo");
+});
