@@ -1,10 +1,16 @@
+.proyectos{
+  max-width: 1136px;
+  width: 100%;
+  margin: 0 auto;
+}
 .experiencia-profesional {
     align-items: center;
     display: flex;
     flex-direction: column;
     margin: 32px auto;
-    padding: 82px;
-    width: 1136px;
+    padding: 82px 0;
+    max-width: 1136px;
+    width: 100%;
   }
   
   .experiencia-profesional h2 {
@@ -24,18 +30,26 @@
   
   .experiencia-encriptador {
     background: url(../images/encriptador.png);
-    height: 382px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 269px;
     margin: 0;
     padding: 0;
-    width: 752px;
+    max-width: 500px;
+    width: 100%;
   }
   
   .experiencia-ahorcado {  
     background: url(../images/ahorcado.png);
-    height: 458px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 322px;
     margin: 0;
     padding: 0;
-    width: 752px;
+    max-width: 500px;
+    width: 70%;
   }
   
   .experiencia-info {
@@ -43,7 +57,8 @@
     display: flex;
     flex-direction: column;
     margin: 0;
-    width: calc(100% - 752px);
+    max-width: 384px;
+    width: 30%;
   }
   
   .nombre-proyecto {
@@ -97,7 +112,6 @@
     flex-direction: column;
     margin: 0px auto;
     padding: 0px;    
-    width: 704px;
   }
 
   .experiencia-profesional h2 {
@@ -118,19 +132,20 @@
 
   .experiencia-encriptador {
     background: url(../images/encriptador-tablet.png);
-    height: 358px;
-    margin: 0;
-    padding: 0;
-    width: 704px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 320px;    
+    max-width: 704px;
+    width: 100%;    
   }
 
   .experiencia-ahorcado {
     background: url(../images/ahorcado-tablet.png);
-    height: 429px;
-    margin: 0;
-    padding: 0;
-    order: -1;
-    width: 704px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 320px;    
+    max-width: 704px;
+    width: 100%;
   }
 
   .experiencia-info {
@@ -189,19 +204,22 @@
   .experiencia-profesional {
     margin: 0;
     padding: 32px;
-    width: 296px;
+    max-width: 296px;
+    width: 100%;
   }
 
   .experiencia-encriptador {
     background: url(../images/encriptador-mobile.png);
     height: 150px;    
-    width: 296px;
+    max-width: 296px;
+    width: 100%;    
   }
 
   .experiencia-ahorcado {
     background: url(../images/ahorcado-mobile.png);
     height: 180px;    
-    width: 296px;
+    max-width: 296px;
+    width: 100%;
   }
 
 }

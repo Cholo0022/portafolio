@@ -5,22 +5,24 @@
   .sector-contacto {
     display: flex;
     margin: 32px auto;
-    width: 1136px;
-    padding: 64px;
+    max-width: 1136px;
+    width: 100%;
+    padding: 64px 0;
   }
   
   .imagen-contacto {
     background: url(../images/telefono.png);
     height: 593px;
     margin: 0px 16px;
-    width: 464px;
+    max-width: 464px;
+    width: 100%;
   }
   
   .sector-formulario {
     display: flex;
     flex-direction: column;
     margin: 10px auto;
-    padding: 0px;
+    padding-right: 16px;
   }
   
   .sector-formulario h2 {
@@ -52,7 +54,8 @@
     line-height: 16px;  
     margin: 0;
     padding: 0;
-    width: 632px; 
+    max-width: 632px; 
+    width: 100%;
   }
   
   .formulario input {
@@ -63,7 +66,8 @@
     margin-bottom: 16px;
     height: 40px;
     padding: 0;  
-    width: 632px;
+    max-width: 632px;
+    width: 100%;
   }
 
   .formulario #nombre{
@@ -96,9 +100,8 @@
 
  @media (max-width: 768px){
   .sector-contacto {
-    margin: 0 0;
-    padding: 32px;
-    width: 704px;
+    padding: 32px 0;
+    width: 100%;
   }
 
   .imagen-contacto {
@@ -110,19 +113,22 @@
 
 @media screen and (max-width: 360px){
   .sector-contacto {
-    width: 296px;
+    max-width: 296px;
+    width: 100%;
   }
 
   .formulario label {
     margin: 32px 0 0 0;
     padding: 0;
-    width: 296px;
+    max-width: 296px;
+    width: 100%;
   }
 
   .formulario input {
     margin: 0px 0 32px 0;
     padding: 0;
-    width: 296px;
+    max-width: 296px;
+    width: 100%;
   }
 
   .formulario button {

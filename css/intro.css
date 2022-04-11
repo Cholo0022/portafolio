@@ -2,7 +2,8 @@
     display: flex;
     margin: 32px auto;
     padding: 0;
-    width: 1136px;
+    max-width: 1136px;
+    width: 100%;
   }
   
   .intro .intro-left {
@@ -16,6 +17,7 @@
     font-size: 52px;
     line-height: 61px;
     margin: 24px 0;  
+    padding-left: 16px;
   }
   
   .intro .intro-left p {
@@ -24,15 +26,16 @@
     font-size: 22px;
     line-height: 26px;
     margin: 24px 0;
+    padding-left: 16px;
   }
   
   .intro .intro-left ul {
     margin: 24px 0px;
+    padding-left: 16px;
   }
   
   .intro .intro-left li {
     display: inline;
-    margin: 0 32px;
     padding: 0;
   }
   
@@ -58,6 +61,8 @@
     margin: 0;
     max-width: 368px;
     max-height: 368px;
+    width: 100%;
+    height: 100%;
   }
   
  /* Sector responsive tablet */
@@ -66,7 +71,6 @@
   .intro {
     margin: 10px auto;
     padding: 0;
-    width: 704px;
   }
 
   .intro .intro-left {
@@ -89,8 +93,8 @@
   .intro .intro-left ul {
     align-items: flex-start;
     display: flex;
+    justify-content: space-between;
     flex-direction: row;
-    margin: 24px 0;
     padding: 0;
   }
 
@@ -119,8 +123,7 @@
     display: flex;
     flex-direction: column;    
     margin: 0px 0px;
-    padding: 16px;    
-    width: 328px;
+    padding: 16px 0;    
   }
 
   .intro .intro-left {
@@ -153,7 +156,7 @@
     align-items: center;
     display: flex;
     flex-direction: row;
-    margin: 16px 0px;
+    /* margin: 16px 0px; */
     padding: 0px;
   }
 

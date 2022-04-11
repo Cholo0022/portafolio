@@ -1,7 +1,7 @@
 header {
     margin: 32px auto;
-    padding: 32px auto;
-    width: 1136px;
+    max-width: 1136px;
+    width: 100%;
   }
   
   header .cabecera {
@@ -70,8 +70,7 @@ header {
 @media (max-width: 768px) {
   header {
     margin: 0;
-    padding: 16px 32px;
-    width: 704px;
+    padding: 16px 0;
   }
 
   header .cabecera {
@@ -122,8 +121,7 @@ header {
  @media screen and (max-width: 360px){
   header {
     margin: 0;
-    padding: 16px;
-    width: 328px;
+    padding: 16px 0;
   }
 
   header .cabecera {
@@ -132,7 +130,7 @@ header {
     flex-direction: row;
     justify-content: space-between;
     margin: 0px auto;    
-    padding: 16px;
+    padding: 16px 0;
     width: 100%;
   }
 

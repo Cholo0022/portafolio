@@ -6,7 +6,8 @@
   
   .sobre-mi {
     margin: 10px auto;
-    width: 751px;
+    max-width: 751px;
+    width: 100%;
   }
   
   .sobre-mi h2 {
@@ -24,7 +25,8 @@
   
   .sobre-mi img {
     margin: 16px 0;
-    width: 140px;
+    max-width: 140px;
+    width: 100%;
   }
   
    /* Sector responsive tablet */
@@ -33,7 +35,7 @@
   .container-sobre-mi {
     margin: auto;
     padding: 32px;
-    width: 704px;
+    
   }
 
   .sobre-mi {
@@ -61,8 +63,8 @@
   .container-sobre-mi {
     display: flex;
     margin: 0 auto;
-    padding: 16px;
-    width: 328px;
+    padding: 16px 0;
+    
   }
 
   .sobre-mi {
