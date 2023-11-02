@@ -32,6 +32,8 @@
   .intro .intro-left ul {
     margin: 24px 0px;
     padding-left: 16px;
+    display: flex;
+    justify-content: space-between;
   }
   
   .intro .intro-left li {
@@ -40,7 +42,7 @@
   }
   
   .intro .intro-left a {
-    color: #464646;
+    color: #0b4ec7;
     cursor: pointer;
     padding: 10px auto;
     text-decoration: none;

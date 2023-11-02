@@ -51,7 +51,30 @@
     max-width: 500px;
     width: 70%;
   }
-  
+
+  .experiencia-ecommerce {
+    background: url(../images/mare.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 269px;
+    margin: 0;
+    padding: 0;
+    max-width: 500px;
+    width: 100%;
+  }
+  .experiencia-blog {
+    background: url(../images/accionLarroque.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 269px;
+    margin: 0;
+    padding: 0;
+    max-width: 500px;
+    width: 100%;
+  }
+
   .experiencia-info {
     align-self: center;
     display: flex;
