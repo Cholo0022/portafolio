@@ -90,6 +90,8 @@
     line-height: 26px;
     margin: 8px 0px;    
     text-align: center;
+    padding-left: 0px;
+    width: 100%;
   }
 
   .intro .intro-left p {
@@ -97,6 +99,7 @@
     margin: 16px 0px;
     line-height: 19px;
     padding: 16px;
+    text-align: justify;
 
   }
 

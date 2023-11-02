@@ -135,8 +135,8 @@
   .container-skills li {
     display: flex;
     justify-content: center;
-    margin: 0px 0px;
-    padding: 16px;
+    margin: 0;
+    padding: 0;
     width: 30%;
   }
 
