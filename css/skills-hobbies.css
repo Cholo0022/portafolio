@@ -58,6 +58,9 @@
     padding: 32px 0;
   }
 
+  .skills{
+    padding: 0px 16px;
+  }
   .container-skills-hobbies h2 {
     font-size: 22px;
     line-height: 26px;
@@ -100,8 +103,7 @@
   }
  }
 
- /* Sector responsive mobile */
-
+ /* Sector responsive mobile
 @media screen and (max-width: 360px){
   .container-skills-hobbies {
     align-items: center;
@@ -160,3 +162,4 @@
   }
 
 }
+*/

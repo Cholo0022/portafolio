@@ -1,6 +1,5 @@
 .intro {
     display: flex;
-
     align-items: center;
     margin: 32px auto;
     padding: 0;
@@ -25,7 +24,7 @@
   .intro .intro-left p {
     font-style: normal;
     font-weight: normal;
-    font-size: 22px;
+    font-size: 18px;
     line-height: 26px;
     margin: 24px 0;
     padding-left: 16px;
@@ -53,6 +52,11 @@
   .intro .intro-left li ::before {
     color: #464646;
     content: "✔";
+  }
+
+  .intro .intro-left h4{
+    font-weight: bold;
+    font-size: 20px;
   }
   
   .intro .intro-right {
@@ -109,6 +113,10 @@
     justify-content: center;
     flex-direction: row;
     padding: 0;
+  }
+
+  .intro .intro-left .contacto{
+    text-align: center;
   }
 
   .intro .intro-right {
