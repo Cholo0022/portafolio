@@ -1,7 +1,8 @@
 .proyectos{
-  max-width: 1136px;
+  max-width: 100%;
   width: 100%;
   margin: 0 auto;
+  padding: 0;
 }
 .experiencia-profesional {
     align-items: center;
@@ -9,7 +10,7 @@
     flex-direction: column;
     margin: 32px auto;
     padding: 82px 0;
-    max-width: 1136px;
+    max-width: 100%;
     width: 100%;
   }
   
@@ -130,12 +131,17 @@
   /* Sector responsive tablet */
 
  @media (max-width: 768px){
+  #proyectos .proyectos{
+    padding: 0px;
+    max-width: 100%;
+    width: 100%;
+  }
   .experiencia-profesional {
     align-items: center;
     display: flex;
     flex-direction: column;
     margin: 0px auto;
-    padding: 0px 16px;
+    padding: 0px;
   }
   .experiencia-profesional h2 {
     font-weight: bold;
@@ -177,10 +183,6 @@
     margin: 16px 0;
     width: 100%;
   }
-  .proyectos{
-    padding: 0px 16px;
-  }
-
   .nombre-proyecto {
     font-size: 22px;
     font-weight: bold;
