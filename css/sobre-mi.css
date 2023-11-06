@@ -42,7 +42,7 @@
     margin: 0px;
     padding: auto;
     width: 100%;
-    padding: 0 16px;
+    padding: 16px 0;
   }
 
   .sobre-mi h2 {
@@ -54,7 +54,7 @@
   .sobre-mi p {
     font-size: 14px;
     line-height: 16px;
-    margin: 16px 0px;
+    margin: 0px 16px;
   }
  }
 
