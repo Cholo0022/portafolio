@@ -3,7 +3,7 @@
     align-items: center;
     margin: 32px auto;
     padding: 0;
-    max-width: 1136px;
+    max-width: 100%;
     width: 100%;
   }
   
@@ -85,7 +85,7 @@
 
   .intro .intro-left {
     margin: auto;
-    padding: 16px;
+    padding: 0px;
     width: 100%;
   }
 
