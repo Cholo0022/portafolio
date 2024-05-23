@@ -225,29 +225,3 @@
   }
 
 }
-
- /* Sector responsive mobile
-@media screen and (max-width: 360px){
-  .experiencia-profesional {
-    margin: 0;
-    padding: 32px;
-    max-width: 296px;
-    width: 100%;
-  }
-
-  .experiencia-encriptador {
-    background: url(../images/encriptador-mobile.png);
-    height: 150px;    
-    max-width: 296px;
-    width: 100%;    
-  }
-
-  .experiencia-ahorcado {
-    background: url(../images/ahorcado-mobile.png);
-    height: 180px;    
-    max-width: 296px;
-    width: 100%;
-  }
-
-}
-*/
