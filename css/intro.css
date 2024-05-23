@@ -48,6 +48,13 @@
     padding: 10px auto;
     text-decoration: none;
   }
+
+  .intro .intro-left .redes a:hover{
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    border-radius: 20px;
+  }
   
   .intro .intro-left li ::before {
     color: #464646;
@@ -131,77 +138,3 @@
   }
 
  }
-
-
-  /* Sector responsive mobile
-
-@media screen and (max-width: 360px){
-  .intro {
-    display: flex;
-    flex-direction: column;
-    margin: 0px 0px;
-    padding: 16px 0;    
-  }
-
-  .intro .intro-left {
-    flex: none;
-    margin: 16px 0px;
-    order: 1;
-    padding: 0px;
-    width: 100%;
-  }
-
-  .intro .intro-left h2 {
-    margin: 16px 0px;
-    font-size: 22px;
-    flex: none;
-    line-height: 26px;   
-    order: 0;
-    padding: 0;
-  }
-
-  .intro .intro-left p {
-    flex: none;
-    font-size: 14px;
-    line-height: 16px;
-    margin: 16px 0px;
-    order: 1;
-    padding: 0;
-  }
-
-  .intro .intro-left ul {
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    padding: 0px;
-  }
-
-  .intro .intro-left li {
-    flex: none;
-    margin: 0px 4px;
-    order: 3;
-    padding: 0;
-  }
-
-  .intro .intro-left a {
-    font-size: 14px;
-    line-height: 16px;
-    margin: 0;
-    padding: 0;
-  }
-
-  .intro .intro-right {
-    flex: none;
-    margin: 16px 0px;
-    order: 0;
-    width: 98px;
-  }
-
-  .intro .intro-right img {
-    border-radius: 5px;
-    height: 100%;
-    margin: 8px 0px;
-    width: 100%;
-  }
-}
- */

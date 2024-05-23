@@ -65,6 +65,13 @@ header {
     text-decoration: none;
   }
 
+  nav a:hover{
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    border-radius: 20px;
+  }
+
 
 @media (max-width: 768px) {
   header {
@@ -113,81 +120,3 @@ header {
   }
 
 }
-
-
- /* Sector responsive mobile 
-
- @media screen and (max-width: 360px){
-  header {
-    margin: 0;
-    padding: 8px 0;
-  }
-
-  header .cabecera {
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-   
-    margin: 0px auto;    
-    padding: 16px 0;
-    width: 100%;
-  }
-
-  .cabecera ul {
-    margin: 0px;
-    padding: 16px;
-  }
-
-  .cabecera li {
-    flex: none;
-    margin: 0;
-    padding: 0;
-  }
-
-  .logo {
-    margin: 0 10px;
-    padding: 0;
-  }
-
-  .logo-estrellas {
-    flex: none;
-    height: 22px;
-    margin: 0px;
-    padding: 0px;
-    width: 22px;
-  }
-
-  .logo h1 {
-    flex: none;
-    font-size: 16px;
-    margin: 0px 8px;
-    padding: 0px;
-  }
-
-  .sobreMiLink {
-    display: none;
-  }
-
-  .skillsLink {
-    display: none;
-  }
-
-  .hobbiesLink {
-    display: none;
-  }
-
-  .formacionLink {
-    display: none;
-  }
-
-  .proyectosLink {
-    display: none;
-  }
-
-  .contactoLink {
-    font-size: 14px;
-    margin: 0px 10px;
-  }
- 
-}
- */
