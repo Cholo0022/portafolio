@@ -58,33 +58,3 @@
     margin: 0px 16px;
   }
  }
-
- /* Sector responsive mobile 
-
-@media screen and (max-width: 360px){
-  .container-sobre-mi {
-    margin: auto;
-    padding: 16px;
-    width: 100%;
-    
-  }
-
-  .sobre-mi {
-    margin: 0px;
-    padding: 16px;
-    width: 100%;
-  }
-
-  .sobre-mi h2 {
-    font-size: 22px;
-    line-height: 26px;
-    margin: 16px 0px;
-  }
-
-  .sobre-mi p {
-    font-size: 14px;
-    margin: 16px 0px;
-    line-height: 16px;
-  }
-}
-*/

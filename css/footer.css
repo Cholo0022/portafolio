@@ -9,10 +9,4 @@
     text-align: center;  
   }
   
-  /* Sector responsive tablet */
-
- @media (max-width: 768px){}
-
-  /* Sector responsive mobile */
-
-@media screen and (max-width: 360px){}
+ 
