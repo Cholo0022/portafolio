@@ -66,8 +66,8 @@ header {
   }
 
   nav a:hover{
-    background-color: black;
-    color: white;
+    background-color: #eaf2fd;
+    color: black;
     padding: 1rem;
     border-radius: 20px;
   }
