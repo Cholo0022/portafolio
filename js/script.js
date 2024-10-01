@@ -1,3 +1,22 @@
+function copyEmail() {
+  const email = document.getElementById('email').innerText;
+  const button = event.target; // Obtener el botón que fue clicado
+  
+  navigator.clipboard.writeText(email).then(() => {
+    console.log('Email copiado: ' + email);
+    
+    // Cambiar el estilo y texto del botón
+    button.style.backgroundColor = 'eaf2fd'; // Cambiar color a verde
+    button.style.color = '464646';
+    button.innerText = 'Email copiado'; // Cambiar texto
+    button.disabled = true; // Deshabilitar el botón si no quieres que se pueda hacer clic de nuevo
+  }).catch(err => {
+    console.error('Error al copiar: ', err);
+  });
+}
+
+
+
 //Valida campo Nombre
 let nombre = document.querySelector("#nombre");
 let errorNombre = document.querySelector(".errorNombre");
